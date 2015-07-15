@@ -1,0 +1,20 @@
+$def with (x)
+<htmL>
+	<head><title>Google MAPS</title></head>
+	<body>
+		<div>
+		<form action="" method="POST" style="margin-left:400px">
+    START: <input type="text" name="start">
+    END: <input type="text" name="end">
+    
+    <input type="submit">
+    <br>
+    <br>
+</form>
+</div>
+<div>
+	$if x:
+		$for i in x:
+			>>>	$i<br>
+	</body>
+</html>
