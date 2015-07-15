@@ -1,6 +1,10 @@
+"""
+in this file, we create a list to store the directions by using the google maps api.
+"""
 from googlemaps import Client
 from HTMLParser import HTMLParser
 
+#code from stackoverflow to remove html tags
 class MLStripper(HTMLParser):
 	def __init__(self):
 		self.reset()
@@ -15,6 +19,7 @@ def strip_tags(html):
 	s.feed(html)
 	return s.get_data()
 
+## function to get directions using an instance of googlmap.
 def Directions(start, end):
 	try:
 		mapService = Client('AIzaSyDddi5KttOYGnCalNu8M54DUsc1kCKVCrA')

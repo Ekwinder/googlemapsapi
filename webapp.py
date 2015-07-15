@@ -1,3 +1,8 @@
+"""
+we make a web application to get the list of directions from maps.py
+and show it in html.
+"""
+
 import web
 import maps
 
