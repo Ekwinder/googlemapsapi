@@ -2,7 +2,7 @@ argparse==1.2.1
 dj-database-url==0.3.0
 googlemaps==2.2
 gunicorn==19.3.0
-requests==2.7.0
+requests==2.20.0
 urllib3==1.10.4
 web.py==0.37
 whitenoise==2.0.2
